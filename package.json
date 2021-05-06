@@ -1,0 +1,25 @@
+{
+  "name": "@flemist/concat",
+  "version": "0.0.1",
+  "description": "Simple concat files and write to stdout",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://NikolayMakhonin@github.com/NikolayMakhonin/concat.git"
+  },
+  "keywords": [
+    "concat",
+    "cli",
+    "glob",
+    "stdout"
+  ],
+  "author": "Nikolay Makhonin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikolayMakhonin/concat/issues"
+  },
+  "homepage": "https://github.com/NikolayMakhonin/concat#readme"
+}
