@@ -3,8 +3,16 @@
   "version": "0.0.1",
   "description": "Simple concat files and write to stdout",
   "main": "index.js",
+  "bin": {
+    "concat": "./cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
   "scripts": {
-    "test": "test"
+    "prepublish": "npm run test",
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +29,10 @@
   "bugs": {
     "url": "https://github.com/NikolayMakhonin/concat/issues"
   },
-  "homepage": "https://github.com/NikolayMakhonin/concat#readme"
+  "homepage": "https://github.com/NikolayMakhonin/concat#readme",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "globby": "^11.0.3",
+    "yargs": "^17.0.1"
+  }
 }
