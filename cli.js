@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const {concat} = require('./index')
 const yargs = require('yargs')
 

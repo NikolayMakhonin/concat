@@ -1,10 +1,16 @@
 {
   "name": "@flemist/concat",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Simple concat files and write to stdout",
   "main": "index.js",
   "bin": {
     "concat": "./cli.js"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "index.js",
